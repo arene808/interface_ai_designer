@@ -1,0 +1,755 @@
+[
+  {
+    "group": "M-A",
+    "interface_type": "flat",
+    "params": {
+      "amplitude": 0
+    },
+    "fourier": {
+      "amplitudes": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "phases": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_power": 0.0,
+      "spectral_decay_exponent": Infinity
+    },
+    "geometric_features": {
+      "rms_roughness": 0.0,
+      "max_amplitude": 0.0,
+      "curvature_max": 0.0,
+      "curvature_rms": 0.0,
+      "slope_max": 0.0,
+      "slope_rms": 0.0,
+      "interface_length": 13.013013,
+      "tortuosity": 1.001001,
+      "zero_crossings": 0
+    },
+    "unified_vector": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.001001
+    ],
+    "experiment": {
+      "sigma_debond": null,
+      "sigma_ultimate": null,
+      "failure_mode": null,
+      "effective_samples": null
+    }
+  },
+  {
+    "group": "M-B",
+    "interface_type": "flat",
+    "params": {
+      "amplitude": 0
+    },
+    "fourier": {
+      "amplitudes": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "phases": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_power": 0.0,
+      "spectral_decay_exponent": Infinity
+    },
+    "geometric_features": {
+      "rms_roughness": 0.0,
+      "max_amplitude": 0.0,
+      "curvature_max": 0.0,
+      "curvature_rms": 0.0,
+      "slope_max": 0.0,
+      "slope_rms": 0.0,
+      "interface_length": 13.013013,
+      "tortuosity": 1.001001,
+      "zero_crossings": 0
+    },
+    "unified_vector": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.001001
+    ],
+    "experiment": {
+      "sigma_debond": null,
+      "sigma_ultimate": null,
+      "failure_mode": null,
+      "effective_samples": null
+    }
+  },
+  {
+    "group": "F0",
+    "interface_type": "flat",
+    "params": {
+      "amplitude": 0
+    },
+    "fourier": {
+      "amplitudes": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "phases": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_power": 0.0,
+      "spectral_decay_exponent": Infinity
+    },
+    "geometric_features": {
+      "rms_roughness": 0.0,
+      "max_amplitude": 0.0,
+      "curvature_max": 0.0,
+      "curvature_rms": 0.0,
+      "slope_max": 0.0,
+      "slope_rms": 0.0,
+      "interface_length": 13.013013,
+      "tortuosity": 1.001001,
+      "zero_crossings": 0
+    },
+    "unified_vector": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.001001
+    ],
+    "experiment": {
+      "sigma_debond": null,
+      "sigma_ultimate": null,
+      "failure_mode": null,
+      "effective_samples": null
+    }
+  },
+  {
+    "group": "N1",
+    "interface_type": "sinusoidal",
+    "params": {
+      "amplitude": 1.2
+    },
+    "fourier": {
+      "amplitudes": [
+        0.239359,
+        0.616442,
+        0.779045,
+        0.036791,
+        0.097334,
+        0.070359,
+        0.024508,
+        0.011102,
+        0.02546,
+        0.020709
+      ],
+      "phases": [
+        1.573938,
+        1.57708,
+        -1.561372,
+        1.583363,
+        1.586504,
+        1.589646,
+        1.592787,
+        -1.545664,
+        -1.542522,
+        -1.53938
+      ],
+      "total_power": 1.062321,
+      "spectral_decay_exponent": 1.587616853485675
+    },
+    "geometric_features": {
+      "rms_roughness": 0.728808,
+      "max_amplitude": 1.199996,
+      "curvature_max": 36.572864,
+      "curvature_rms": 2.028689,
+      "slope_max": 1.570719,
+      "slope_rms": 0.953015,
+      "interface_length": 17.457919,
+      "tortuosity": 1.342917,
+      "zero_crossings": 4
+    },
+    "unified_vector": [
+      0.239359,
+      0.616442,
+      0.779045,
+      0.036791,
+      0.097334,
+      0.728808,
+      36.572864,
+      1.342917
+    ],
+    "experiment": {
+      "sigma_debond": null,
+      "sigma_ultimate": null,
+      "failure_mode": null,
+      "effective_samples": null
+    }
+  },
+  {
+    "group": "N2",
+    "interface_type": "sinusoidal",
+    "params": {
+      "amplitude": 1.8
+    },
+    "fourier": {
+      "amplitudes": [
+        0.359038,
+        0.924664,
+        1.168568,
+        0.055186,
+        0.146001,
+        0.105539,
+        0.036762,
+        0.016652,
+        0.038191,
+        0.031064
+      ],
+      "phases": [
+        1.573938,
+        1.57708,
+        -1.561372,
+        1.583363,
+        1.586504,
+        1.589646,
+        1.592787,
+        -1.545664,
+        -1.542522,
+        -1.53938
+      ],
+      "total_power": 2.390223,
+      "spectral_decay_exponent": 1.5876168534856747
+    },
+    "geometric_features": {
+      "rms_roughness": 1.093211,
+      "max_amplitude": 1.799994,
+      "curvature_max": 47.99127,
+      "curvature_rms": 2.543479,
+      "slope_max": 2.356079,
+      "slope_rms": 1.429523,
+      "interface_length": 21.319408,
+      "tortuosity": 1.639954,
+      "zero_crossings": 4
+    },
+    "unified_vector": [
+      0.359038,
+      0.924664,
+      1.168568,
+      0.055186,
+      0.146001,
+      1.093211,
+      47.99127,
+      1.639954
+    ],
+    "experiment": {
+      "sigma_debond": null,
+      "sigma_ultimate": null,
+      "failure_mode": null,
+      "effective_samples": null
+    }
+  },
+  {
+    "group": "N3",
+    "interface_type": "sinusoidal",
+    "params": {
+      "amplitude": 2.4
+    },
+    "fourier": {
+      "amplitudes": [
+        0.478718,
+        1.232885,
+        1.558091,
+        0.073582,
+        0.194668,
+        0.140718,
+        0.049016,
+        0.022203,
+        0.050921,
+        0.041418
+      ],
+      "phases": [
+        1.573938,
+        1.57708,
+        -1.561372,
+        1.583363,
+        1.586504,
+        1.589646,
+        1.592787,
+        -1.545664,
+        -1.542522,
+        -1.53938
+      ],
+      "total_power": 4.249285,
+      "spectral_decay_exponent": 1.5876168534856747
+    },
+    "geometric_features": {
+      "rms_roughness": 1.457615,
+      "max_amplitude": 2.399993,
+      "curvature_max": 54.026212,
+      "curvature_rms": 2.892658,
+      "slope_max": 3.141439,
+      "slope_rms": 1.906031,
+      "interface_length": 25.526969,
+      "tortuosity": 1.963613,
+      "zero_crossings": 4
+    },
+    "unified_vector": [
+      0.478718,
+      1.232885,
+      1.558091,
+      0.073582,
+      0.194668,
+      1.457615,
+      54.026212,
+      1.963613
+    ],
+    "experiment": {
+      "sigma_debond": null,
+      "sigma_ultimate": null,
+      "failure_mode": null,
+      "effective_samples": null
+    }
+  },
+  {
+    "group": "S1",
+    "interface_type": "sawtooth",
+    "params": {
+      "amplitude": 1.2
+    },
+    "fourier": {
+      "amplitudes": [
+        0.188726,
+        0.492088,
+        0.636651,
+        0.031301,
+        0.088839,
+        0.073394,
+        0.034988,
+        0.087441,
+        0.015877,
+        0.001627
+      ],
+      "phases": [
+        -1.567655,
+        -1.564513,
+        1.580221,
+        -1.55823,
+        -1.555088,
+        -1.551947,
+        -1.548805,
+        1.595929,
+        -1.542522,
+        -1.53938
+      ],
+      "total_power": 0.708215,
+      "spectral_decay_exponent": 1.662198903845411
+    },
+    "geometric_features": {
+      "rms_roughness": 0.595069,
+      "max_amplitude": 1.198098,
+      "curvature_max": 69.007606,
+      "curvature_rms": 4.589909,
+      "slope_max": 1.0,
+      "slope_rms": 0.855382,
+      "interface_length": 16.958415,
+      "tortuosity": 1.304493,
+      "zero_crossings": 4
+    },
+    "unified_vector": [
+      0.188726,
+      0.492088,
+      0.636651,
+      0.031301,
+      0.088839,
+      0.595069,
+      69.007606,
+      1.304493
+    ],
+    "experiment": {
+      "sigma_debond": null,
+      "sigma_ultimate": null,
+      "failure_mode": null,
+      "effective_samples": null
+    }
+  },
+  {
+    "group": "S2",
+    "interface_type": "sawtooth",
+    "params": {
+      "amplitude": 1.8
+    },
+    "fourier": {
+      "amplitudes": [
+        0.283088,
+        0.738132,
+        0.954976,
+        0.046951,
+        0.133259,
+        0.110091,
+        0.052483,
+        0.131161,
+        0.023816,
+        0.002441
+      ],
+      "phases": [
+        -1.567655,
+        -1.564513,
+        1.580221,
+        -1.55823,
+        -1.555088,
+        -1.551947,
+        -1.548805,
+        1.595929,
+        -1.542522,
+        -1.53938
+      ],
+      "total_power": 1.593483,
+      "spectral_decay_exponent": 1.6621989038454112
+    },
+    "geometric_features": {
+      "rms_roughness": 0.892604,
+      "max_amplitude": 1.797147,
+      "curvature_max": 99.581014,
+      "curvature_rms": 6.061846,
+      "slope_max": 1.5,
+      "slope_rms": 1.283073,
+      "interface_length": 20.661502,
+      "tortuosity": 1.589346,
+      "zero_crossings": 4
+    },
+    "unified_vector": [
+      0.283088,
+      0.738132,
+      0.954976,
+      0.046951,
+      0.133259,
+      0.892604,
+      99.581014,
+      1.589346
+    ],
+    "experiment": {
+      "sigma_debond": null,
+      "sigma_ultimate": null,
+      "failure_mode": null,
+      "effective_samples": null
+    }
+  },
+  {
+    "group": "S3",
+    "interface_type": "sawtooth",
+    "params": {
+      "amplitude": 2.4
+    },
+    "fourier": {
+      "amplitudes": [
+        0.377451,
+        0.984176,
+        1.273301,
+        0.062601,
+        0.177679,
+        0.146788,
+        0.069977,
+        0.174882,
+        0.031754,
+        0.003255
+      ],
+      "phases": [
+        -1.567655,
+        -1.564513,
+        1.580221,
+        -1.55823,
+        -1.555088,
+        -1.551947,
+        -1.548805,
+        1.595929,
+        -1.542522,
+        -1.53938
+      ],
+      "total_power": 2.832859,
+      "spectral_decay_exponent": 1.6621989038454106
+    },
+    "geometric_features": {
+      "rms_roughness": 1.190138,
+      "max_amplitude": 2.396196,
+      "curvature_max": 125.975132,
+      "curvature_rms": 7.232539,
+      "slope_max": 2.0,
+      "slope_rms": 1.710764,
+      "interface_length": 24.792352,
+      "tortuosity": 1.907104,
+      "zero_crossings": 4
+    },
+    "unified_vector": [
+      0.377451,
+      0.984176,
+      1.273301,
+      0.062601,
+      0.177679,
+      1.190138,
+      125.975132,
+      1.907104
+    ],
+    "experiment": {
+      "sigma_debond": null,
+      "sigma_ultimate": null,
+      "failure_mode": null,
+      "effective_samples": null
+    }
+  },
+  {
+    "group": "D1",
+    "interface_type": "dovetail",
+    "params": {
+      "amplitude": 1.2,
+      "neck_width": 2.0,
+      "head_width": 2.4,
+      "dovetail_depth": 1.2
+    },
+    "fourier": {
+      "amplitudes": [
+        0.822033,
+        0.53249,
+        0.158956,
+        0.223831,
+        0.000449,
+        0.091696,
+        0.198282,
+        0.027564,
+        0.083356,
+        0.000779
+      ],
+      "phases": [
+        -1.084817,
+        2.542756,
+        3.028736,
+        0.373123,
+        -2.283012,
+        1.345076,
+        -1.310531,
+        2.317048,
+        2.803026,
+        0.147716
+      ],
+      "total_power": 1.128714,
+      "spectral_decay_exponent": 2.0275866594400718
+    },
+    "geometric_features": {
+      "rms_roughness": 0.751237,
+      "max_amplitude": 1.2,
+      "curvature_max": 53.427214,
+      "curvature_rms": 4.919532,
+      "slope_max": 9.359237,
+      "slope_rms": 1.641482,
+      "interface_length": 17.101948,
+      "tortuosity": 1.315534,
+      "zero_crossings": 2
+    },
+    "unified_vector": [
+      0.822033,
+      0.53249,
+      0.158956,
+      0.223831,
+      0.000449,
+      0.751237,
+      53.427214,
+      1.315534
+    ],
+    "experiment": {
+      "sigma_debond": null,
+      "sigma_ultimate": null,
+      "failure_mode": null,
+      "effective_samples": null
+    }
+  },
+  {
+    "group": "D2",
+    "interface_type": "dovetail",
+    "params": {
+      "amplitude": 1.8,
+      "neck_width": 1.5,
+      "head_width": 2.9,
+      "dovetail_depth": 1.8
+    },
+    "fourier": {
+      "amplitudes": [
+        1.428712,
+        0.837884,
+        0.195701,
+        0.083937,
+        0.121005,
+        0.229456,
+        0.270782,
+        0.01266,
+        0.092272,
+        0.173365
+      ],
+      "phases": [
+        -1.205526,
+        2.301337,
+        2.666606,
+        -0.109721,
+        0.255557,
+        0.620824,
+        -2.155499,
+        1.351367,
+        -1.424951,
+        2.081909
+      ],
+      "total_power": 3.037577,
+      "spectral_decay_exponent": 1.2651079808990542
+    },
+    "geometric_features": {
+      "rms_roughness": 1.232391,
+      "max_amplitude": 1.8,
+      "curvature_max": 64.912387,
+      "curvature_rms": 5.561733,
+      "slope_max": 14.028929,
+      "slope_rms": 2.462293,
+      "interface_length": 19.466278,
+      "tortuosity": 1.497406,
+      "zero_crossings": 2
+    },
+    "unified_vector": [
+      1.428712,
+      0.837884,
+      0.195701,
+      0.083937,
+      0.121005,
+      1.232391,
+      64.912387,
+      1.497406
+    ],
+    "experiment": {
+      "sigma_debond": null,
+      "sigma_ultimate": null,
+      "failure_mode": null,
+      "effective_samples": null
+    }
+  },
+  {
+    "group": "D3",
+    "interface_type": "dovetail",
+    "params": {
+      "amplitude": 2.4,
+      "neck_width": 1.2,
+      "head_width": 3.2,
+      "dovetail_depth": 2.4
+    },
+    "fourier": {
+      "amplitudes": [
+        2.0484,
+        1.117434,
+        0.209831,
+        0.107195,
+        0.234351,
+        0.306578,
+        0.213761,
+        0.016183,
+        0.251364,
+        0.232534
+      ],
+      "phases": [
+        -1.277952,
+        2.156485,
+        2.449329,
+        2.742179,
+        -0.106573,
+        0.186269,
+        -2.662482,
+        -2.369619,
+        -2.076788,
+        1.357648
+      ],
+      "total_power": 5.931297,
+      "spectral_decay_exponent": 1.2101015435037596
+    },
+    "geometric_features": {
+      "rms_roughness": 1.722106,
+      "max_amplitude": 2.4,
+      "curvature_max": 75.93603,
+      "curvature_rms": 6.107512,
+      "slope_max": 18.705239,
+      "slope_rms": 3.283056,
+      "interface_length": 21.845072,
+      "tortuosity": 1.68039,
+      "zero_crossings": 2
+    },
+    "unified_vector": [
+      2.0484,
+      1.117434,
+      0.209831,
+      0.107195,
+      0.234351,
+      1.722106,
+      75.93603,
+      1.68039
+    ],
+    "experiment": {
+      "sigma_debond": null,
+      "sigma_ultimate": null,
+      "failure_mode": null,
+      "effective_samples": null
+    }
+  }
+]

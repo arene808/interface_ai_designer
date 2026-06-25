@@ -1,0 +1,13 @@
+﻿group_name,specimen_id,sigma_debond,sigma_ultimate,failure_mode,test_date,notes
+M-A,, , , , ,flat A=0.0mm
+M-B,, , , , ,flat A=0.0mm
+F0,, , , , ,flat A=0.0mm
+N1,, , , , ,sinusoidal A=1.2mm
+N2,, , , , ,sinusoidal A=1.8mm
+N3,, , , , ,sinusoidal A=2.4mm
+S1,, , , , ,sawtooth A=1.2mm
+S2,, , , , ,sawtooth A=1.8mm
+S3,, , , , ,sawtooth A=2.4mm
+D1,, , , , ,dovetail A=1.2mm
+D2,, , , , ,dovetail A=1.8mm
+D3,, , , , ,dovetail A=2.4mm
