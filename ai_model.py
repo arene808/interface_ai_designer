@@ -114,6 +114,7 @@ class InterfaceAIModel:
         self.scaler_y = None
         self.is_trained = False
         self.training_data = None
+        self.inverse_data = {}
         self.reference_groups = self._load_reference_groups()
     
     def _load_reference_groups(self):
@@ -207,20 +208,42 @@ class InterfaceAIModel:
         if models is None:
             best_type = 'sinusoidal'
             models = self.inverse_models[best_type]
-        
         s = np.array([[target, target**2, target**3]])
         features = np.zeros(FEATURE_DIM)
-        for j, model in enumerate(models):
-            features[j] = max(0, model.predict(s)[0])
-        
+
+        # Type-specific interpolation for small datasets
+        if (hasattr(self, 'inverse_data') and best_type in self.inverse_data and len(self.inverse_data[best_type]['strengths']) >= 1):
+            idata = self.inverse_data[best_type]
+            strengths = idata['strengths']
+            feats = idata['features']
+            if len(strengths) == 1:
+                features = feats[0].copy()
+            else:
+                idx = np.argsort(strengths)
+                s_sorted = strengths[idx]
+                f_sorted = feats[idx]
+                if target <= s_sorted[0]:
+                    features = f_sorted[0].copy()
+                elif target >= s_sorted[-1]:
+                    features = f_sorted[-1].copy()
+                else:
+                    for k in range(len(s_sorted) - 1):
+                        if s_sorted[k] <= target <= s_sorted[k+1]:
+                            t = (target - s_sorted[k]) / (s_sorted[k+1] - s_sorted[k])
+                            features = (1 - t) * f_sorted[k] + t * f_sorted[k+1]
+                            break
+        else:
+            for j, model in enumerate(models):
+                features[j] = max(0, model.predict(s)[0])
+
         if best_type == 'flat':
             features = np.zeros(FEATURE_DIM)
             features[7] = 1.001
-        
+
         predicted_strength = self.predict_strength(features)
         curve_params = self._features_to_curve_params(features, best_type)
         curve_x, curve_y = self._generate_curve_from_params(curve_params)
-        
+
         return {
             'target_strength': float(target_strength),
             'predicted_strength': float(predicted_strength),
@@ -235,12 +258,14 @@ class InterfaceAIModel:
             'strength_range': [self.strength_min, self.strength_max],
         }
     
+
+    
     def _select_best_type(self, target):
         ranges = {
-            'flat': (4.5, 5.8),
-            'sinusoidal': (5.5, 12.0),
-            'sawtooth': (6.5, 13.5),
-            'dovetail': (8.0, 16.0),
+            'flat':       (1.0, 1.6),
+            'sinusoidal': (1.4, 2.6),
+            'sawtooth':   (1.6, 2.5),
+            'dovetail':   (2.0, 3.5),
         }
         for itype, (lo, hi) in ranges.items():
             if lo <= target <= hi:
@@ -384,6 +409,18 @@ class InterfaceAIModel:
         from sklearn.neural_network import MLPRegressor
         from sklearn.model_selection import cross_val_score
         
+        GROUP_TYPE_MAP = {
+            'F0': 'flat', 'F1': 'flat',
+            'N1': 'sinusoidal', 'N2': 'sinusoidal', 'N3': 'sinusoidal',
+            'S1': 'sawtooth', 'S2': 'sawtooth', 'S3': 'sawtooth',
+            'D1': 'dovetail', 'D2': 'dovetail', 'D3': 'dovetail',
+        # GROUP_TYPE_MAP already defined above
+        
+        
+        
+        
+        
+        }
         if len(X_real) < 3:
             return {
                 'status': 'error',
@@ -417,6 +454,28 @@ class InterfaceAIModel:
             cv_r2 = float(np.mean(cv_scores))
         except Exception:
             cv_r2 = None
+        
+        # Store type-specific data for interpolation-based inverse design
+        # Derive type from feature pattern: flat(A1=0), sinusoidal(A2 large), sawtooth(curv high), dovetail(A2 large+A4 large)
+        self.inverse_data = {}
+        for i in range(len(y_real)):
+            feat = X_real[i]
+            A1, A2, A4, curv = feat[0], feat[1], feat[3], feat[6]
+            if A1 < 0.01:
+                itype = 'flat'
+            elif A4 > A2 * 0.3:
+                itype = 'dovetail'
+            elif curv > 60:
+                itype = 'sawtooth'
+            else:
+                itype = 'sinusoidal'
+            if itype not in self.inverse_data:
+                self.inverse_data[itype] = {'strengths': [], 'features': []}
+            self.inverse_data[itype]['strengths'].append(y_real[i])
+            self.inverse_data[itype]['features'].append(X_real[i])
+        for itype in self.inverse_data:
+            self.inverse_data[itype]['strengths'] = np.array(self.inverse_data[itype]['strengths'])
+            self.inverse_data[itype]['features'] = np.array(self.inverse_data[itype]['features'])
         
         # 训练逆模型
         from sklearn.linear_model import Ridge

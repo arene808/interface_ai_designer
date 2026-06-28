@@ -1,0 +1,27 @@
+{
+  "model_version": "2.0-real-data",
+  "training_date": "2026-06-28",
+  "n_training_samples": 7,
+  "training_groups": [
+    "F0",
+    "N1",
+    "N2",
+    "N3",
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "strength_range": [
+    1.36,
+    2.378
+  ],
+  "train_r2": 0.9940776419516938,
+  "cv_r2": NaN,
+  "data_source": "real_experimental",
+  "interface_types_tested": [
+    "flat",
+    "sawtooth",
+    "sinusoidal"
+  ],
+  "notes": "Trained on 2026-06-27 TPU-PLA tensile test data per GB/T 528-2009"
+}

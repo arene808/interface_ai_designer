@@ -1,0 +1,624 @@
+{
+  "F0": {
+    "n_specimens": 5,
+    "sigma_debond_mean": 1.2875754000000001,
+    "sigma_debond_std": 0.18290887681793908,
+    "sigma_debond_values": [
+      1.154634,
+      1.463223,
+      1.510952,
+      1.154534,
+      1.154534
+    ],
+    "sigma_ultimate_mean": 1.2875754000000001,
+    "sigma_ultimate_std": 0.18290887681793908,
+    "sigma_ultimate_values": [
+      1.154634,
+      1.463223,
+      1.510952,
+      1.154534,
+      1.154534
+    ],
+    "failure_modes": [
+      "low_strength",
+      "low_strength",
+      "low_strength",
+      "low_strength",
+      "low_strength"
+    ],
+    "failure_mode_dominant": "low_strength",
+    "specimens": [
+      {
+        "id": "1",
+        "filename": "F0-1.xls",
+        "sigma_debond": 1.154634,
+        "sigma_ultimate": 1.154634,
+        "failure_mode": "low_strength",
+        "elastic_modulus": 0.2640859521789565,
+        "toughness": 9.180153974779738,
+        "failure_strain": 6.10957
+      },
+      {
+        "id": "2",
+        "filename": "F0-2.xls",
+        "sigma_debond": 1.463223,
+        "sigma_ultimate": 1.463223,
+        "failure_mode": "low_strength",
+        "elastic_modulus": 0.251559988575214,
+        "toughness": 9.080592911433516,
+        "failure_strain": 9.716769
+      },
+      {
+        "id": "3",
+        "filename": "F0-3.xls",
+        "sigma_debond": 1.510952,
+        "sigma_ultimate": 1.510952,
+        "failure_mode": "low_strength",
+        "elastic_modulus": 0.22576157819351858,
+        "toughness": 11.328992077904955,
+        "failure_strain": 11.60405
+      },
+      {
+        "id": "P1",
+        "filename": "F0-P1.xls",
+        "sigma_debond": 1.154534,
+        "sigma_ultimate": 1.154534,
+        "failure_mode": "low_strength",
+        "elastic_modulus": 0.29785326060389067,
+        "toughness": 4.994748365564789,
+        "failure_strain": 6.342369
+      },
+      {
+        "id": "P2",
+        "filename": "F0-P2.xls",
+        "sigma_debond": 1.154534,
+        "sigma_ultimate": 1.154534,
+        "failure_mode": "low_strength",
+        "elastic_modulus": 0.29785326060389067,
+        "toughness": 4.994748365564789,
+        "failure_strain": 6.342369
+      }
+    ]
+  },
+  "F1": {
+    "n_specimens": 5,
+    "sigma_debond_mean": 1.3907192000000002,
+    "sigma_debond_std": 0.06721217848128426,
+    "sigma_debond_values": [
+      1.510952,
+      1.360661,
+      1.360661,
+      1.360661,
+      1.360661
+    ],
+    "sigma_ultimate_mean": 1.3907192000000002,
+    "sigma_ultimate_std": 0.06721217848128426,
+    "sigma_ultimate_values": [
+      1.510952,
+      1.360661,
+      1.360661,
+      1.360661,
+      1.360661
+    ],
+    "failure_modes": [
+      "low_strength",
+      "low_strength",
+      "low_strength",
+      "low_strength",
+      "low_strength"
+    ],
+    "failure_mode_dominant": "low_strength",
+    "specimens": [
+      {
+        "id": "1",
+        "filename": "F1-1.xls",
+        "sigma_debond": 1.510952,
+        "sigma_ultimate": 1.510952,
+        "failure_mode": "low_strength",
+        "elastic_modulus": 0.2528044558538244,
+        "toughness": 18.069984643593386,
+        "failure_strain": 11.60405
+      },
+      {
+        "id": "2",
+        "filename": "F1-2.xls",
+        "sigma_debond": 1.360661,
+        "sigma_ultimate": 1.360661,
+        "failure_mode": "low_strength",
+        "elastic_modulus": 0.26187857900659456,
+        "toughness": 20.59608412838618,
+        "failure_strain": 9.291447
+      },
+      {
+        "id": "3",
+        "filename": "F1-3.xls",
+        "sigma_debond": 1.360661,
+        "sigma_ultimate": 1.360661,
+        "failure_mode": "low_strength",
+        "elastic_modulus": 0.26187857900659456,
+        "toughness": 20.59608412838618,
+        "failure_strain": 9.291447
+      },
+      {
+        "id": "4",
+        "filename": "F1-4.xls",
+        "sigma_debond": 1.360661,
+        "sigma_ultimate": 1.360661,
+        "failure_mode": "low_strength",
+        "elastic_modulus": 0.26187857900659456,
+        "toughness": 20.59608412838618,
+        "failure_strain": 9.291447
+      },
+      {
+        "id": "5",
+        "filename": "F1-5.xls",
+        "sigma_debond": 1.360661,
+        "sigma_ultimate": 1.360661,
+        "failure_mode": "low_strength",
+        "elastic_modulus": 0.26187857900659456,
+        "toughness": 20.59608412838618,
+        "failure_strain": 9.291447
+      }
+    ]
+  },
+  "N1": {
+    "n_specimens": 5,
+    "sigma_debond_mean": 2.215871,
+    "sigma_debond_std": 0.0,
+    "sigma_debond_values": [
+      2.215871,
+      2.215871,
+      2.215871,
+      2.215871,
+      2.215871
+    ],
+    "sigma_ultimate_mean": 2.215871,
+    "sigma_ultimate_std": 0.0,
+    "sigma_ultimate_values": [
+      2.215871,
+      2.215871,
+      2.215871,
+      2.215871,
+      2.215871
+    ],
+    "failure_modes": [
+      "CF-T",
+      "CF-T",
+      "CF-T",
+      "CF-T",
+      "CF-T"
+    ],
+    "failure_mode_dominant": "CF-T",
+    "specimens": [
+      {
+        "id": "1",
+        "filename": "N1-1.xls",
+        "sigma_debond": 2.215871,
+        "sigma_ultimate": 2.215871,
+        "failure_mode": "CF-T",
+        "elastic_modulus": 0.2935216396755884,
+        "toughness": 79.0631028536066,
+        "failure_strain": 17.45397
+      },
+      {
+        "id": "2",
+        "filename": "N1-2.xls",
+        "sigma_debond": 2.215871,
+        "sigma_ultimate": 2.215871,
+        "failure_mode": "CF-T",
+        "elastic_modulus": 0.2935216396755884,
+        "toughness": 79.0631028536066,
+        "failure_strain": 17.45397
+      },
+      {
+        "id": "3",
+        "filename": "N1-3.xls",
+        "sigma_debond": 2.215871,
+        "sigma_ultimate": 2.215871,
+        "failure_mode": "CF-T",
+        "elastic_modulus": 0.2935216396755884,
+        "toughness": 79.0631028536066,
+        "failure_strain": 17.45397
+      },
+      {
+        "id": "4",
+        "filename": "N1-4.xls",
+        "sigma_debond": 2.215871,
+        "sigma_ultimate": 2.215871,
+        "failure_mode": "CF-T",
+        "elastic_modulus": 0.2935216396755884,
+        "toughness": 79.0631028536066,
+        "failure_strain": 17.45397
+      },
+      {
+        "id": "5",
+        "filename": "N1-5.xls",
+        "sigma_debond": 2.215871,
+        "sigma_ultimate": 2.215871,
+        "failure_mode": "CF-T",
+        "elastic_modulus": 0.2935216396755884,
+        "toughness": 79.0631028536066,
+        "failure_strain": 17.45397
+      }
+    ]
+  },
+  "N2": {
+    "n_specimens": 3,
+    "sigma_debond_mean": 1.59364,
+    "sigma_debond_std": 0.0,
+    "sigma_debond_values": [
+      1.59364,
+      1.59364,
+      1.59364
+    ],
+    "sigma_ultimate_mean": 1.59364,
+    "sigma_ultimate_std": 0.0,
+    "sigma_ultimate_values": [
+      1.59364,
+      1.59364,
+      1.59364
+    ],
+    "failure_modes": [
+      "low_strength",
+      "low_strength",
+      "low_strength"
+    ],
+    "failure_mode_dominant": "low_strength",
+    "specimens": [
+      {
+        "id": "1",
+        "filename": "N2-1.xls",
+        "sigma_debond": 1.59364,
+        "sigma_ultimate": 1.59364,
+        "failure_mode": "low_strength",
+        "elastic_modulus": 0.3347778954053044,
+        "toughness": 27.84054895799529,
+        "failure_strain": 0.01873846
+      },
+      {
+        "id": "2",
+        "filename": "N2-2.xls",
+        "sigma_debond": 1.59364,
+        "sigma_ultimate": 1.59364,
+        "failure_mode": "low_strength",
+        "elastic_modulus": 0.3347778954053044,
+        "toughness": 27.84054895799529,
+        "failure_strain": 0.01873846
+      },
+      {
+        "id": "3",
+        "filename": "N2-3.xls",
+        "sigma_debond": 1.59364,
+        "sigma_ultimate": 1.59364,
+        "failure_mode": "low_strength",
+        "elastic_modulus": 0.3347778954053044,
+        "toughness": 27.84054895799529,
+        "failure_strain": 0.01873846
+      }
+    ]
+  },
+  "N3": {
+    "n_specimens": 5,
+    "sigma_debond_mean": 2.507129,
+    "sigma_debond_std": 0.0,
+    "sigma_debond_values": [
+      2.507129,
+      2.507129,
+      2.507129,
+      2.507129,
+      2.507129
+    ],
+    "sigma_ultimate_mean": 2.537558,
+    "sigma_ultimate_std": 0.0,
+    "sigma_ultimate_values": [
+      2.537558,
+      2.537558,
+      2.537558,
+      2.537558,
+      2.537558
+    ],
+    "failure_modes": [
+      "CF-T",
+      "CF-T",
+      "CF-T",
+      "CF-T",
+      "CF-T"
+    ],
+    "failure_mode_dominant": "CF-T",
+    "specimens": [
+      {
+        "id": "1",
+        "filename": "N3-1.xls",
+        "sigma_debond": 2.507129,
+        "sigma_ultimate": 2.537558,
+        "failure_mode": "CF-T",
+        "elastic_modulus": 0.3319080979628099,
+        "toughness": 206.89316648080495,
+        "failure_strain": 25.38197
+      },
+      {
+        "id": "2",
+        "filename": "N3-2.xls",
+        "sigma_debond": 2.507129,
+        "sigma_ultimate": 2.537558,
+        "failure_mode": "CF-T",
+        "elastic_modulus": 0.3319080979628099,
+        "toughness": 206.89316648080495,
+        "failure_strain": 25.38197
+      },
+      {
+        "id": "3",
+        "filename": "N3-3.xls",
+        "sigma_debond": 2.507129,
+        "sigma_ultimate": 2.537558,
+        "failure_mode": "CF-T",
+        "elastic_modulus": 0.3319080979628099,
+        "toughness": 206.89316648080495,
+        "failure_strain": 25.38197
+      },
+      {
+        "id": "4",
+        "filename": "N3-4.xls",
+        "sigma_debond": 2.507129,
+        "sigma_ultimate": 2.537558,
+        "failure_mode": "CF-T",
+        "elastic_modulus": 0.3319080979628099,
+        "toughness": 206.89316648080495,
+        "failure_strain": 25.38197
+      },
+      {
+        "id": "5",
+        "filename": "N3-5.xls",
+        "sigma_debond": 2.507129,
+        "sigma_ultimate": 2.537558,
+        "failure_mode": "CF-T",
+        "elastic_modulus": 0.3319080979628099,
+        "toughness": 206.89316648080495,
+        "failure_strain": 25.38197
+      }
+    ]
+  },
+  "S1": {
+    "n_specimens": 5,
+    "sigma_debond_mean": 2.088969,
+    "sigma_debond_std": 0.0,
+    "sigma_debond_values": [
+      2.088969,
+      2.088969,
+      2.088969,
+      2.088969,
+      2.088969
+    ],
+    "sigma_ultimate_mean": 2.088969,
+    "sigma_ultimate_std": 0.0,
+    "sigma_ultimate_values": [
+      2.088969,
+      2.088969,
+      2.088969,
+      2.088969,
+      2.088969
+    ],
+    "failure_modes": [
+      "CF-T",
+      "CF-T",
+      "CF-T",
+      "CF-T",
+      "CF-T"
+    ],
+    "failure_mode_dominant": "CF-T",
+    "specimens": [
+      {
+        "id": "1",
+        "filename": "S1-1.xls",
+        "sigma_debond": 2.088969,
+        "sigma_ultimate": 2.088969,
+        "failure_mode": "CF-T",
+        "elastic_modulus": 0.31827879025282585,
+        "toughness": 77.21892114324285,
+        "failure_strain": 15.03975
+      },
+      {
+        "id": "2",
+        "filename": "S1-2.xls",
+        "sigma_debond": 2.088969,
+        "sigma_ultimate": 2.088969,
+        "failure_mode": "CF-T",
+        "elastic_modulus": 0.31827879025282585,
+        "toughness": 77.21892114324285,
+        "failure_strain": 15.03975
+      },
+      {
+        "id": "3",
+        "filename": "S1-3.xls",
+        "sigma_debond": 2.088969,
+        "sigma_ultimate": 2.088969,
+        "failure_mode": "CF-T",
+        "elastic_modulus": 0.31827879025282585,
+        "toughness": 77.21892114324285,
+        "failure_strain": 15.03975
+      },
+      {
+        "id": "4",
+        "filename": "S1-4.xls",
+        "sigma_debond": 2.088969,
+        "sigma_ultimate": 2.088969,
+        "failure_mode": "CF-T",
+        "elastic_modulus": 0.31827879025282585,
+        "toughness": 77.21892114324285,
+        "failure_strain": 15.03975
+      },
+      {
+        "id": "5",
+        "filename": "S1-5.xls",
+        "sigma_debond": 2.088969,
+        "sigma_ultimate": 2.088969,
+        "failure_mode": "CF-T",
+        "elastic_modulus": 0.31827879025282585,
+        "toughness": 77.21892114324285,
+        "failure_strain": 15.03975
+      }
+    ]
+  },
+  "S2": {
+    "n_specimens": 5,
+    "sigma_debond_mean": 2.101735,
+    "sigma_debond_std": 0.12091984801925618,
+    "sigma_debond_values": [
+      2.155812,
+      2.155812,
+      2.155812,
+      2.155812,
+      1.885427
+    ],
+    "sigma_ultimate_mean": 2.101735,
+    "sigma_ultimate_std": 0.12091984801925618,
+    "sigma_ultimate_values": [
+      2.155812,
+      2.155812,
+      2.155812,
+      2.155812,
+      1.885427
+    ],
+    "failure_modes": [
+      "CF-T",
+      "CF-T",
+      "CF-T",
+      "CF-T",
+      "low_strength"
+    ],
+    "failure_mode_dominant": "CF-T",
+    "specimens": [
+      {
+        "id": "1",
+        "filename": "S2-1.xls",
+        "sigma_debond": 2.155812,
+        "sigma_ultimate": 2.155812,
+        "failure_mode": "CF-T",
+        "elastic_modulus": 0.33046499097553894,
+        "toughness": 73.46526046775688,
+        "failure_strain": 15.85185
+      },
+      {
+        "id": "2",
+        "filename": "S2-2.xls",
+        "sigma_debond": 2.155812,
+        "sigma_ultimate": 2.155812,
+        "failure_mode": "CF-T",
+        "elastic_modulus": 0.33046499097553894,
+        "toughness": 73.46526046775688,
+        "failure_strain": 15.85185
+      },
+      {
+        "id": "3",
+        "filename": "S2-3.xls",
+        "sigma_debond": 2.155812,
+        "sigma_ultimate": 2.155812,
+        "failure_mode": "CF-T",
+        "elastic_modulus": 0.33046499097553894,
+        "toughness": 73.46526046775688,
+        "failure_strain": 15.85185
+      },
+      {
+        "id": "4",
+        "filename": "S2-4.xls",
+        "sigma_debond": 2.155812,
+        "sigma_ultimate": 2.155812,
+        "failure_mode": "CF-T",
+        "elastic_modulus": 0.33046499097553894,
+        "toughness": 73.46526046775688,
+        "failure_strain": 15.85185
+      },
+      {
+        "id": "5",
+        "filename": "S2-5.xls",
+        "sigma_debond": 1.885427,
+        "sigma_ultimate": 1.885427,
+        "failure_mode": "low_strength",
+        "elastic_modulus": 0.33131434720814507,
+        "toughness": 14.853475782239304,
+        "failure_strain": 12.36852
+      }
+    ]
+  },
+  "S3": {
+    "n_specimens": 5,
+    "sigma_debond_mean": 2.380579,
+    "sigma_debond_std": 0.0,
+    "sigma_debond_values": [
+      2.380579,
+      2.380579,
+      2.380579,
+      2.380579,
+      2.380579
+    ],
+    "sigma_ultimate_mean": 2.380579,
+    "sigma_ultimate_std": 0.0,
+    "sigma_ultimate_values": [
+      2.380579,
+      2.380579,
+      2.380579,
+      2.380579,
+      2.380579
+    ],
+    "failure_modes": [
+      "CF-T",
+      "CF-T",
+      "CF-T",
+      "CF-T",
+      "CF-T"
+    ],
+    "failure_mode_dominant": "CF-T",
+    "specimens": [
+      {
+        "id": "1",
+        "filename": "S3-1.xls",
+        "sigma_debond": 2.380579,
+        "sigma_ultimate": 2.380579,
+        "failure_mode": "CF-T",
+        "elastic_modulus": 0.3382312328371077,
+        "toughness": 127.1166194478573,
+        "failure_strain": 18.80435
+      },
+      {
+        "id": "2",
+        "filename": "S3-2.xls",
+        "sigma_debond": 2.380579,
+        "sigma_ultimate": 2.380579,
+        "failure_mode": "CF-T",
+        "elastic_modulus": 0.3382312328371077,
+        "toughness": 127.1166194478573,
+        "failure_strain": 18.80435
+      },
+      {
+        "id": "3",
+        "filename": "S3-3.xls",
+        "sigma_debond": 2.380579,
+        "sigma_ultimate": 2.380579,
+        "failure_mode": "CF-T",
+        "elastic_modulus": 0.3382312328371077,
+        "toughness": 127.1166194478573,
+        "failure_strain": 18.80435
+      },
+      {
+        "id": "4",
+        "filename": "S3-4.xls",
+        "sigma_debond": 2.380579,
+        "sigma_ultimate": 2.380579,
+        "failure_mode": "CF-T",
+        "elastic_modulus": 0.3382312328371077,
+        "toughness": 127.1166194478573,
+        "failure_strain": 18.80435
+      },
+      {
+        "id": "5",
+        "filename": "S3-5.xls",
+        "sigma_debond": 2.380579,
+        "sigma_ultimate": 2.380579,
+        "failure_mode": "CF-T",
+        "elastic_modulus": 0.3382312328371077,
+        "toughness": 127.1166194478573,
+        "failure_strain": 18.80435
+      }
+    ]
+  }
+}

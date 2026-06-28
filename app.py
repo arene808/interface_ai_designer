@@ -113,16 +113,16 @@ def curve_types():
     return jsonify({'types': [
         {'id': 'flat', 'name': '平面界面', 'name_en': 'Flat',
          'description': '纯粘附界面，无机械互锁。强度最低，制造最简单。',
-         'strength_range': '4.5~5.8 MPa', 'color': '#9E9E9E'},
+         'strength_range': '1.0~1.6 MPa', 'color': '#9E9E9E'},
         {'id': 'sinusoidal', 'name': '正弦界面', 'name_en': 'Sinusoidal',
          'description': '连续曲率波状界面，无尖角应力集中。中等互锁强度。',
-         'strength_range': '5.5~12.0 MPa', 'color': '#2196F3'},
+         'strength_range': '1.4~2.6 MPa', 'color': '#2196F3'},
         {'id': 'sawtooth', 'name': '锯齿界面', 'name_en': 'Sawtooth',
          'description': '对称三角波界面，尖角增强方向性互锁。中高强度。',
-         'strength_range': '6.5~13.5 MPa', 'color': '#FF5722'},
+         'strength_range': '1.6~2.5 MPa', 'color': '#FF5722'},
         {'id': 'dovetail', 'name': '燕尾界面', 'name_en': 'Dovetail',
          'description': '梯形机械锁扣界面，交替方向锁死。最高互锁强度。',
-         'strength_range': '8.0~16.0 MPa', 'color': '#4CAF50'},
+         'strength_range': '2.0~3.5 MPa', 'color': '#4CAF50'},
     ]})
 
 
